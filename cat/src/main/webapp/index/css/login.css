@@ -1,0 +1,105 @@
+body{
+	background: url(../img/login-background.jpg);
+	
+
+}
+.content{
+	padding-top: 60px;
+	
+}
+.header-text{
+	width: 478.5px;
+    line-height: 40.5px;
+    color: #F4F8F9;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 82.5px;
+}
+.form-content{
+	margin: auto;
+	width: 276px;
+}
+
+.form-username,
+.form-pazzword{
+	width: 276px;
+	height: 39px;
+	font-size: 18px;
+	margin-bottom: 24px;
+}
+.remember-pazzword-selected{
+    display: inline-block;
+	width: 13.5px;
+	height: 13.5px;
+	background:#fff;
+	margin-right: 5px;
+	cursor: pointer;
+	color: #000;
+    font-weight: bold;
+    text-align: center;
+    line-height: 13.5px;
+}
+.service-pazzword{
+	font-size: 13.5px;
+	line-height: 13.5px;
+	width: 276px;
+	color: #fff;
+	margin-bottom: 24px;
+}
+.remember-pazzword{
+	line-height: 13.5px;
+}
+.service-pazzword a{
+	color: #fff;
+}
+.login-button{
+	width: 276px;
+	height: 39px;
+	line-height: 39px;
+	font-size: 15px;
+	text-align: center;
+	background: #27A1FF;
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 24px;
+	cursor: pointer;
+}
+.login-button.wait{
+	background: #ddd;
+    cursor: wait;
+}
+
+
+
+
+.use-other-account{
+	color: #fff;
+	width: 276px;
+	line-height:21px;
+}
+.margin-left{
+	margin-left: 19.5px;
+}
+.use-other-account-icon{
+	float: right;
+	display: inline-block;
+}
+.use-other-account-icon a{
+	display: block;
+	width: 21px;
+	height: 21px;
+	background-size: cover;
+}
+
+.use-other-account-icon a.qq{
+	background-image: url("../img/service-icons-color_r2_c1.png");
+}
+.use-other-account-icon a.wetchat{
+	background-image: url("../img/service-icons-color_r4_c1.png");
+}
+.use-other-account-icon a.xinlang{
+	background-image: url("../img/service-icons-color_r1_c1.png");
+}
+.use-other-account-icon a.baidu{
+	background-image: url("../img/service-icons-color_r5_c1.png");
+}
